@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lowpoly Light Saber
+* source:	https://sketchfab.com/3d-models/lowpoly-light-saber-d7ef6ae9af3749bfb630a3ed03a337b7
+* author:	isadoradesign_ (https://sketchfab.com/isadoradesign_)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lowpoly Light Saber" (https://sketchfab.com/3d-models/lowpoly-light-saber-d7ef6ae9af3749bfb630a3ed03a337b7) by isadoradesign_ (https://sketchfab.com/isadoradesign_) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
