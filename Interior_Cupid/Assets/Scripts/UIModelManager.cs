@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//class to handle the item selection buttons/UI
 public class UIModelManager : MonoBehaviour
 {
     private Button btn;
@@ -16,7 +17,7 @@ public class UIModelManager : MonoBehaviour
     }
     void SelectObject()
     {
-        DataCollector.Instance.model = model;
+       // DataManager.Instance.model = model;
     }
 
 }

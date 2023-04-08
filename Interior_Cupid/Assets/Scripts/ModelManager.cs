@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.XR.ARFoundation; //has the class ARRaycastManager and other similar classes
 
+
 //this script manages the placement of models/objects into the real world
 [RequireComponent(typeof(ARRaycastManager))]
 public class ModelManager : MonoBehaviour
@@ -32,7 +33,7 @@ public class ModelManager : MonoBehaviour
             return ;
         }
         
-        Instantiate(DataCollector.Instance.model, pose.position, pose.rotation);
+        //Instantiate(DataManager.Instance.model, pose.position, pose.rotation);
 
     }
 
