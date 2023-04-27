@@ -17,7 +17,7 @@ public class UIModelManager : MonoBehaviour
     }
     void SelectObject()
     {
-       // DataManager.Instance.model = model;
+       DataManager.Instance.model = model;
     }
 
 }
