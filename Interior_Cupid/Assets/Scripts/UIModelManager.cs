@@ -8,6 +8,7 @@ public class UIModelManager : MonoBehaviour
 {
     private Button btn;
     public GameObject model;
+    [SerializeField] private GameObject pointer;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,8 @@ public class UIModelManager : MonoBehaviour
     }
     void SelectObject()
     {
-       DataManager.Instance.model = model;
+        pointer.SetActive(true);
+        DataManager.Instance.model = model;
     }
 
 }

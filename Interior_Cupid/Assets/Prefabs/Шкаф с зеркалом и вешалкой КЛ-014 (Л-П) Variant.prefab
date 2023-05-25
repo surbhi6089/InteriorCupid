@@ -168,6 +168,10 @@ PrefabInstance:
         \u0438 \u0432\u0435\u0448\u0430\u043B\u043A\u043E\u0439 \u041A\u041B-014
         (\u041B-\u041F) Variant"
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2bff33fbe17d60b40b5fe0ec644b5a89, type: 3}
+      propertyPath: m_TagString
+      value: ARObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bff33fbe17d60b40b5fe0ec644b5a89, type: 3}
 --- !u!1 &3180587413346762766 stripped

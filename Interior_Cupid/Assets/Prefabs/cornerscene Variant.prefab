@@ -162,6 +162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cornerscene Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1ec4d7731eced2d4f99d9e90bf4e405d, type: 3}
+      propertyPath: m_TagString
+      value: ARObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ec4d7731eced2d4f99d9e90bf4e405d, type: 3}
 --- !u!1 &5219366095535970603 stripped

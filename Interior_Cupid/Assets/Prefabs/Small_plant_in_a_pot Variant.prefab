@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2607167213960547712, guid: 180e9321b4263044792556c20e8d3f03, type: 3}
       propertyPath: m_Name
-      value: Small_plant_in_a_pot
+      value: Small_plant_in_a_pot Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607167213960547712, guid: 180e9321b4263044792556c20e8d3f03, type: 3}
+      propertyPath: m_TagString
+      value: ARObject
       objectReference: {fileID: 0}
     - target: {fileID: 3263311859933017683, guid: 180e9321b4263044792556c20e8d3f03, type: 3}
       propertyPath: m_RootOrder
