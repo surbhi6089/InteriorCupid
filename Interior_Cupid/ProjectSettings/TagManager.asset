@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Selectable
   - ARObject
+  - Point
   layers:
   - Default
   - TransparentFX

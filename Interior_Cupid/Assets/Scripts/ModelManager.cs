@@ -58,30 +58,7 @@ public class ModelManager : ARBaseGestureInteractable
 
 
         PointerCalculation();
-
-        /*commented the below portion later*/
-
-        //touch = Input.GetTouch(0);
-
-        //if (Input.touchCount < 0 || touch.phase != TouchPhase.Began)
-        //{
-        //    return;
-        //}
-        //if (IsTouchOnUI(touch))
-        //{
-        //    return;
-        //}
-
-        //Ray ray = camera.ScreenPointToRay(touch.position);
-        //if (raycastManager.Raycast(ray, hits))
-        //{
-        //    pose = hits[0].pose;
-        //    Instantiate(DataManager.Instance.model, pose.position, pose.rotation);
-        //}
     }
-
-    //thissssssss
-
 
     bool IsTouchOnUI(TapGesture touch)
     {
@@ -92,26 +69,10 @@ public class ModelManager : ARBaseGestureInteractable
         return result.Count > 0;
     }
 
-    //bool IsTouchOnUI(Touch touch)
-    //{
-    //    PointerEventData eventData = new PointerEventData(EventSystem.current);
-    //    eventData.position = new Vector2(touch.position.x, touch.position.y);
-    //    List<RaycastResult> result = new List<RaycastResult>();
-    //    EventSystem.current.RaycastAll(eventData, result);
-    //    return result.Count > 0;
-    //}
-
     void PointerCalculation()
     {
         Vector3 origin = camera.ViewportToScreenPoint(new Vector3(0.5f, 0.5f, 0));
         Ray ray = camera.ScreenPointToRay(origin);
-
-        //if (GestureTransformationUtility.Raycast(origin, hits, trackableTypes: UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
-        //{
-        //    pose = hits[0].pose;
-        //    pointer.transform.position = pose.position;
-        //    pointer.transform.eulerAngles = new Vector3(90, 0, 0);
-        //}
 
         if (raycastManager.Raycast(ray, hits))
         {

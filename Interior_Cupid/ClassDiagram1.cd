@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UniGLTF.UniUnlit.UniUnlitEditor" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAEAAAICAAAAAAAAAAAAAIAGQAQggCAAAAAAAA=</HashCode>
+      <FileName>Assets\UniGLTF\UniUnlit\Editor\UniUnlitEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UniGLTF.ImporterMenu" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UniGLTF\Core\Scripts\Editor\ImporterMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UniGLTF.gltfAssetPostprocessor" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAACAAAAA=</HashCode>
+      <FileName>Assets\UniGLTF\Core\Scripts\Editor\gltfAssetPostprocessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

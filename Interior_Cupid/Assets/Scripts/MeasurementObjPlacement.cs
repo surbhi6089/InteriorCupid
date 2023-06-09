@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
@@ -11,13 +12,16 @@ public class MeasurementObjPlacement : MonoBehaviour
 
     private void Start()
     {
-        pointer.SetActive(false);
+        
         placementButton.onClick.AddListener(EnablePlacementInteractable);
     }
 
     public void EnablePlacementInteractable()
     {
         placementInteractable.enabled = true;
-        Debug.Log("Enabled");
+        //pointer.SetActive(false);
+
+        Destroy(pointer);
+        //Debug.Log("Enabled");
     }
 }

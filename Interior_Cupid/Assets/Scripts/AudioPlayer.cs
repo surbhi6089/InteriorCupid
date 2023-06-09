@@ -10,7 +10,7 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] private Button btn;
     private bool isOn = true;
 
-    public AudioClip calm1, calm2, calm3, jazz1, jazz2, jazz3;
+    public AudioClip calm1, calm2, calm3, jazz1, jazz2, jazz3, playful1, playful2;
 
     public AudioSource src;
 
@@ -72,7 +72,7 @@ public class AudioPlayer : MonoBehaviour
         {
             btn.image.sprite = soundOffImg;
             isOn = false;
-            src.clip = calm3;
+            src.clip = jazz1;
             src.Play();
         }
         else
@@ -88,7 +88,7 @@ public class AudioPlayer : MonoBehaviour
         {
             btn.image.sprite = soundOffImg;
             isOn = false;
-            src.clip = calm3;
+            src.clip = jazz2;
             src.Play();
         }
         else
@@ -104,7 +104,39 @@ public class AudioPlayer : MonoBehaviour
         {
             btn.image.sprite = soundOffImg;
             isOn = false;
-            src.clip = calm3;
+            src.clip = jazz3;
+            src.Play();
+        }
+        else
+        {
+            btn.image.sprite = soundOnImg;
+            isOn = true;
+            src.Pause();
+        }
+    }
+    public void playfulButton1()
+    {
+        if (isOn)
+        {
+            btn.image.sprite = soundOffImg;
+            isOn = false;
+            src.clip = playful1;
+            src.Play();
+        }
+        else
+        {
+            btn.image.sprite = soundOnImg;
+            isOn = true;
+            src.Pause();
+        }
+    }
+    public void playfulButton2()
+    {
+        if (isOn)
+        {
+            btn.image.sprite = soundOffImg;
+            isOn = false;
+            src.clip = playful2;
             src.Play();
         }
         else

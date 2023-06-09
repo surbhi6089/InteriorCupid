@@ -4,6 +4,7 @@ using UnityEngine.XR.ARFoundation;
 public class DeleteAll : MonoBehaviour
 {
     public ARRaycastManager arRaycastManager;
+    public LineRenderer lineRenderer;
 
     public void RemoveARObjects()
     {
@@ -13,5 +14,13 @@ public class DeleteAll : MonoBehaviour
         {
             Destroy(placedObject);
         }
+
+        GameObject[] placedPoints = GameObject.FindGameObjectsWithTag("Point");
+
+        foreach (GameObject placedPoint in placedPoints)
+        {
+            Destroy(placedPoint);
+        }
+        Destroy(lineRenderer);
     }
 }

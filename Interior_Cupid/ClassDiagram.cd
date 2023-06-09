@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnityEngine.XR.ARFoundation.Samples.ARFeatheredPlaneMeshVisualizer">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAACBABAAAAEAAAAAABAAEAAIAAAAAIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\ARFeatheredPlaneMeshVisualizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioPlayer">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAQAAQAAmEAAAAAAYQBAIAQACAAAgBAEAAQAAAAQEA=</HashCode>
+      <FileName>Assets\Scripts\AudioPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraLightEstimation">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAgIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\CameraLightEstimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CategoryButton">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAABAAAAAgAAAAAAAAAQAAIAA=</HashCode>
+      <FileName>Assets\Scripts\CategoryButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CategoryGroup">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAAAAAAgCAAAAAAAAAAAEACAAIAIAAgIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CategoryGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlPlaneDetection">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAADAAAAABAAAAAAAAAAAAAAAAAAAAAAgEA=</HashCode>
+      <FileName>Assets\Scripts\ControlPlaneDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataManager">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAgAAABAAABAAAAAQAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\DataManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeleteAll">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DeleteAll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeletionManager">
+    <Position X="11.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DeletionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HandleToggle">
+    <Position X="11.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAQAAAAAAAAACAggAAAAIAAACAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HandleToggle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemManager">
+    <Position X="15.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightEstimation">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAIAAAAgIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\LightEstimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineManager">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAACAAAAEAAABAACAKAAAAAAAAAEABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LineManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeasurementObjPlacement">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACACAAAAAAAAAAAAAAAAAAAACCAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MeasurementObjPlacement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelManager">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAwACAAAAAAAgAAAAAIQAAAAAFAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\ModelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIModelManager">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACAAAAAAAAAAAAAAAAAAAAGAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\UIModelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

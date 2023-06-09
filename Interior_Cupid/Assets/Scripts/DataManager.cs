@@ -22,12 +22,4 @@ public class DataManager : MonoBehaviour
             return instance; 
         }
     }
-
-    //void CreateItemButton()
-    //{
-    //    foreach(ItemManager i in items)
-    //    {
-    //        UIModelManager btn = Instantiate(buttonPrefab, buttonContainer.transform);
-    //    }
-    //}
 }
